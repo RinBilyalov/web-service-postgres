@@ -13,9 +13,9 @@ func NewUserHandler() http.Handler {
 	router.HandleFunc("/users", cmd.GetAllUsers).Methods("GET")
 	router.HandleFunc("/user/{id}", cmd.GetUser).Methods("GET")
 	router.HandleFunc("/user/{id}/comments", cmd.GetUserComments).Methods("GET")
-	router.HandleFunc("/user/{id}/comments/{id}", cmd.GetUserCommentById).Methods("GET")
+	router.HandleFunc("/user/{id}/comment/{id}", cmd.GetUserCommentById).Methods("GET")
 
-	//router.HandleFunc("/user/{id}", cmd.CreateUser).Methods("POST")
+	router.HandleFunc("/user", cmd.CreateUser).Methods("POST")
 
 	return router
 }

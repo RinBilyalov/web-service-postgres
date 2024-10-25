@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres_go@localhost" uuid="6737f08d-88e5-40cf-b766-3edd7d453b48">
+    <data-source source="LOCAL" name="postgres_go@localhost" uuid="8f54378c-5f7f-4fe4-be17-c97049186274">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres_go</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:1234/postgres_go</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
